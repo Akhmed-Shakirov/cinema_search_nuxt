@@ -1,20 +1,16 @@
 <template>
   <div class="filter">
     <div class="col-md-3">
-      <b-form-select v-model="selected1" :options="options1"></b-form-select><!-- <br>
-      <b-badge @click="selected = null">{{selected}}</b-badge><br> -->
+      <b-form-select v-model="selected1" :options="options1"></b-form-select>
     </div>
     <div class="col-md-3">
-      <b-form-select v-model="selected2" :options="options2"></b-form-select><!-- <br>
-      <b-badge @click="selected = null">{{selected}}</b-badge><br> -->
+      <b-form-select v-model="selected2" :options="options2"></b-form-select>
     </div>
     <div class="col-md-3">
-      <b-form-select v-model="selected3" :options="options3"></b-form-select><!-- <br>
-      <b-badge @click="selected = null">{{selected}}</b-badge><br> -->
+      <b-form-select v-model="selected3" :options="options3"></b-form-select>
     </div>
     <div class="col-md-3">
-      <b-form-select v-model="selected4" :options="options4"></b-form-select><!-- <br>
-      <b-badge @click="selected = null">{{selected}}</b-badge> -->
+      <b-form-select v-model="selected4" :options="options4"></b-form-select>
     </div>
   </div>
 </template>
